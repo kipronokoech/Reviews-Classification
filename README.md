@@ -6,7 +6,13 @@ The data available is highly imbalanced: there are so many positive reviews (94%
 
 For imbalance data model accuracy was ~93% and ~89% for balanced data. The later is better than the former. Check the notebooks to see why.
 
-[Pic: Data Composition]
+<table style="width:100%">
+  <tr>
+    <th><img src="plots/data_imbalanced.png" width=400></th>
+    <th><img src="plots/data_balance.png" width=400></th>
+  </tr>
+</table>
+
 A Sample data point:
 ```
 {'socialShareUrl': 'https://www.trustpilot.com/reviews/5ed0251025e5d20a88a2057d', 'businessUnitId': '5090eace00006400051ded85', 'businessUnitDisplayName': 'WorldRemit', 'consumerId': '5ed0250fdfdf8632f9ee7ab6', 'consumerName': 'May', 'reviewId': '5ed0251025e5d20a88a2057d', 'reviewHeader': 'Wow - Great Service', 'reviewBody': 'Wow. Great Service with no issues.  Money was available same day in no time.', 'stars': 5}
@@ -48,7 +54,9 @@ Precision and recall measures how well the model correctly classifiers the posit
 | Naive Bayes  |  0.962 |  0.032 |  0.403 |
 | Logistic Regression  | 0.976  | 0.000  |  0.590 |
 | Random Forest  | 0.966  |  0.000 |  0.000 |
-[PIC]
+
+<img src="plots/f1.png" width=400>
+
 - F1 on balanced data(We only consider two classes):
 
 |  Classisifiers |  F1 Positive | F1 Negative  |
@@ -58,14 +66,25 @@ Precision and recall measures how well the model correctly classifiers the posit
 | Naive Bayes  |  0.789 |  0.778 | 
 | Logistic Regression  | 0.878  | 0.876  | 
 | Random Forest  | 0.757  |  0.712 | 
-[PIC]
+
+<img src="plots/f1_balanced.png" width=400>
 
 ## More Plots
-
 - Models accuracies
-- [2PICS]
+<table style="width:100%">
+  <tr>
+    <th><img src="plots/accuracy[imbalanced].png" width=400></th>
+    <th><img src="plots/accuracy[Balanced].png" width=400></th>
+  </tr>
+  </table>
 - confusion matrix (svm)
-- [2PIC]
+ <table style="width:100%">
+  <tr>
+    <th><img src="plots/confusion.png" width=400></th>
+    <th><img src="plots/confusion_balanced.png" width=400></th>
+  </tr>
+</table>
+
 
 ## Text test case (using SVM classifier)
 ```Python
