@@ -34,8 +34,8 @@ We will be interested on the `reviewBody` and the number of `stars`.
 **Note:** Models are good on balanced data despite the values shows. Let us see the f1 scores of the models on different classes
 ### F1 Score
 The F1 score is the harmonic mean of the precision and recall [Wikipedia](https://en.wikipedia.org/wiki/F1_score). 
-```latex
-$$F_1 = \frac{precision \times recall}{precision + recall}$$
+```
+$ F_1 = \frac{precision \times recall}{precision + recall} $
 ```
 Precision and recall measures how well the model correctly classifiers the positive cases and the negative casses. Read more [here](https://en.wikipedia.org/wiki/Precision_and_recall).
 
