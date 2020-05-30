@@ -37,7 +37,9 @@ We will be interested on the `reviewBody` and the number of `stars`.
 | Logistic Regression   | 0.877  | 0.953  |
 | Random Forest   |  0.736 | 0.935  |
 
-**Note:** Models are good on balanced data despite the values shows. Let us see the f1 scores of the models on different classes
+**Note:** Models are good on balanced data despite the values shown. Let us see the f1 scores of the models on different classes to get a better understanding.
+
+**Note 2** More explanations are available on the jupyter notebooks on the repository.
 ### F1 Score
 The F1 score is the harmonic mean of the precision and recall [Wikipedia](https://en.wikipedia.org/wiki/F1_score). 
 
