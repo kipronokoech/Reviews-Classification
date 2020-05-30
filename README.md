@@ -20,13 +20,6 @@ A Sample data point:
 
 ```
 We will be interested on the `reviewBody` and the number of `stars`.
-<<<<<<< HEAD
-
-This repository holds the code and other files used to predict as whether a review is a positive or a negative one. In it, we scrap the data from the web about the reviews made about WorldRemit and classifier reviews using different classifiers in Sklearn library of Python.
-
-The data available is highly imbalance: there are so many positive reviews (94% of the training set) than negative(4%) or neutral(2%). So, in this project we fitted the model on the the imbalanced data and also on balanced data (dropped positive excesses so that we have same number of positive and negative reviews.)
-=======
->>>>>>> copy
 
 
 ## Root Dir - Files and Folders
@@ -47,22 +40,12 @@ The data available is highly imbalance: there are so many positive reviews (94% 
 | Logistic Regression   | 0.877  | 0.953  |
 | Random Forest   |  0.736 | 0.935  |
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Note:** Models are good on balanced data despite the values shows. Let us see the f1 scores of the models on different classes
-<<<<<<< HEAD
-=======
-**Note:** Models are good on balanced data despite the values shown. Let us see the f1 scores of the models on different classes to get a better understanding.
-
-**Note 2** More explanations are available on the jupyter notebooks on the repository.
->>>>>>> 9c3f62be3a291900e66978788523adf061634fbf
-=======
 
 **Note:** Models are good on balanced data despite the values shown. Let us see the f1 scores of the models on different classes to get a better understanding.
 
 **Note 2** More explanations are available on the jupyter notebooks on the repository.
 
->>>>>>> copy
+
 ### F1 Score
 The F1 score is the harmonic mean of the precision and recall [Wikipedia](https://en.wikipedia.org/wiki/F1_score). 
 
