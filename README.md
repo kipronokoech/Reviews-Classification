@@ -35,7 +35,7 @@ We will be interested on the `reviewBody` and the number of `stars`.
 ### F1 Score
 The F1 score is the harmonic mean of the precision and recall [Wikipedia](https://en.wikipedia.org/wiki/F1_score). 
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;\mathtext{F}_1= 2 \frac{\text{precision}\times\text{recall}}{\text{precision}+\text{recall}}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+<a href="https://www.codecogs.com/eqnedit.php?latex=F_1&space;=&space;2\times&space;\frac{\text{precision}\times\text{recall}}{\text{precision}&plus;\text{recall}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?F_1&space;=&space;2\times&space;\frac{\text{precision}\times\text{recall}}{\text{precision}&plus;\text{recall}}" title="F_1 = 2\times \frac{\text{precision}\times\text{recall}}{\text{precision}+\text{recall}}" /></a>
 
 Precision and recall measures how well the model correctly classifiers the positive cases and the negative casses. Read more [here](https://en.wikipedia.org/wiki/Precision_and_recall).
 
