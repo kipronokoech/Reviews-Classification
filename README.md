@@ -8,7 +8,8 @@ For imbalance data model accuracy was ~93% and ~89% for balanced data. The later
 
 <table style="width:100%">
   <tr>
-    <img src="plots/data_balance.png" width=400>
+    <th><img src="plots/data_balance.png" width=400></th>
+    <th><img src="plots/data_balance.png" width=400></th>
   </tr>
 </table>
 
