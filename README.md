@@ -35,8 +35,8 @@ We will be interested on the `reviewBody` and the number of `stars`.
 ### F1 Score
 The F1 score is the harmonic mean of the precision and recall [Wikipedia](https://en.wikipedia.org/wiki/F1_score). 
 
-$$F_1 = \frac{precision \times recall}{precision + recall}$$
-$\frac{n!}{k!(n-k)!}$
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+
 Precision and recall measures how well the model correctly classifiers the positive cases and the negative casses. Read more [here](https://en.wikipedia.org/wiki/Precision_and_recall).
 
 - F1 on imbalanced data:
