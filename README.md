@@ -6,7 +6,7 @@ The data available is highly imbalanced: there are so many positive reviews (94%
 
 For imbalance data model accuracy was ~93% and ~89% for balanced data. The later is better than the former. Check the notebooks to see why.
 
-<img src="plots/data_balance.png">
+<img src="plots/data_balance.png" width=100>
 
 A Sample data point:
 ```
