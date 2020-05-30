@@ -54,7 +54,9 @@ Precision and recall measures how well the model correctly classifiers the posit
 | Naive Bayes  |  0.962 |  0.032 |  0.403 |
 | Logistic Regression  | 0.976  | 0.000  |  0.590 |
 | Random Forest  | 0.966  |  0.000 |  0.000 |
-[PIC]
+
+<img src="plots/f1.png" width=400>
+
 - F1 on balanced data(We only consider two classes):
 
 |  Classisifiers |  F1 Positive | F1 Negative  |
@@ -64,14 +66,25 @@ Precision and recall measures how well the model correctly classifiers the posit
 | Naive Bayes  |  0.789 |  0.778 | 
 | Logistic Regression  | 0.878  | 0.876  | 
 | Random Forest  | 0.757  |  0.712 | 
-[PIC]
+
+<img src="plots/f1_balanced.png" width=400>
 
 ## More Plots
-
 - Models accuracies
-- [2PICS]
+<table style="width:100%">
+  <tr>
+    <th><img src="plots/accuracy[imbalanced].png" width=400></th>
+    <th><img src="plots/accuracy[Balanced].png" width=400></th>
+  </tr>
+  </table>
 - confusion matrix (svm)
-- [2PIC]
+ <table style="width:100%">
+  <tr>
+    <th><img src="plots/confusion.png" width=400></th>
+    <th><img src="plots/confusion_balanced.png" width=400></th>
+  </tr>
+</table>
+
 
 ## Text test case (using SVM classifier)
 ```Python
