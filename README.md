@@ -93,7 +93,7 @@ Precision and recall measures how well the model correctly classifiers the posit
     <th><img src="plots/confusion_balanced.png" width=400></th>
   </tr>
 </table>
- It is not a surprise at all that SVM does not predict Neutral reviews from this confusion matrix. It is just support of the fact that the F_1 score on the neutral review is 0.00 from the table above.
+ It is not a surprise at all that SVM does not predict Neutral reviews from this confusion matrix. It is just support of the fact that the F1 score on the neutral review is 0.00 from the table above.
 
 ## Text test case (using SVM classifier)
 ```Python
