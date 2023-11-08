@@ -20,7 +20,7 @@ user_agents = [i.strip() for i in open("user_agents.txt").readlines()]
 options.add_argument("--headless")
 driver = webdriver.Chrome(options=options)
 
-for page in range(3319, 8023):
+for page in range(3978, 8023):
     url = f"https://www.trustpilot.com/review/wise.com?page={page}"
     # url = f"https://www.trustpilot.com/review/www.paypal.com?page={page}"
     # print(url)
@@ -56,7 +56,9 @@ for page in range(3319, 8023):
 
         message = review.find_element(By.CLASS_NAME,"typography_body-l__KUYFJ").text
         data["message"] = message
-
+        if "Updated" in review.find_element(By.TAG_NAME, "time").text:
+            # This line will allow us to skip updated reviews.
+            continue
         date_time = review.find_element(By.TAG_NAME, "time").get_attribute("datetime")
         review_date, review_time_string = date_time.split("T")
         review_time = review_time_string.split(".")[0]
