@@ -3,6 +3,12 @@ book_reviews
 categories
 CategoryClassifer.ipynb
 data_process.py
+process_raw_data.py
 misc
 Web Scraping/data/Paypal
 Web Scraping/data/Wise
+archive
+Web Scraping and EDA/data/Wise/
+Web Scraping and EDA/data/Paypal/
+Web Scraping and EDA/wise.json
+Web Scraping and EDA/paypal.json
