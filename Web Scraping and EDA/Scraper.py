@@ -23,7 +23,6 @@ driver = webdriver.Chrome(options=options)
 for page in range(3319, 8023):
     url = f"https://www.trustpilot.com/review/wise.com?page={page}"
     # url = f"https://www.trustpilot.com/review/www.paypal.com?page={page}"
-    # print(url)
     driver.execute_cdp_cmd('Network.setUserAgentOverride', {"userAgent": random.choice(user_agents)})
     # print(driver.execute_script("return navigator.userAgent;"))
     driver.get(url)
